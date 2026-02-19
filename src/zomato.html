@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZOMATO</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="w-full">
+      <section
+        class="h-[480px] w-full max-w-screen bg-no-repeat bg-cover bg-center"
+        style="
+          background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+        "
+      >
+        <nav class="capitalize text-[white] flex justify-around pt-5">
+          <div class="hover:cursor-pointer"><i class="fa-solid fa-mobile-screen"></i> get the app</div>
+          <div>
+            <ul
+              class="capitalize flex flex-row gap-6 text-[20px] font-[okra,hevetika,sans-serif] font-extralight"
+            >
+              <li class="hover:cursor-pointer">investor relations</li>
+              <li class="hover:cursor-pointer">add restaurant</li>
+              <li class="hover:cursor-pointer">login</li>
+              <li class="hover:cursor-pointer">sign up</li>
+            </ul>
+          </div>
+        </nav>
+        <section class="flex justify-center items-center mt-18">
+          <img
+            src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"
+            alt=""
+            class="h-[65px] w-[280px]"
+          />
+        </section>
+        <section class="flex justify-center items-center pt-7">
+          <p
+            class="text-white text-4xl pl-3 font-medium w-[732px] h-[45px]"
+            style="font-family: 'Brygada 1918', serif"
+          >
+            Discover the best food & drinks in Chennai
+          </p>
+        </section>
+        <article class="flex justify-center items-center pt-6">
+            <input type="text" placeholder="search for restaurant" class="bg-[white] w-[800px] h-[55px] rounded-[10px] text-center relative">
+            <section class="absolute flex items-center justify-evenly left-[400px] space-x-1">
+                <p><i class="fa-solid fa-location-dot text-[red] "></i></p>
+                <p class=" text-[#a2a2a2]">Chennai</p>
+                </section>
+                <section class="absolute flex items-center left-[600px] border-b-[#414040] space-x-2">
+                    <p><i class="fa-solid fa-caret-down mr-1"></i></p>
+                    <div class="w-[1px] h-4 bg-[#414040]"></div>
+                </section>
+                <article class="absolute flex items-center left-[655px] justify-evenly">
+                   <a href="#" title="search"><i class="fa-solid fa-magnifying-glass text-[grey] size-2"></i></a>
+                </article>
+                
+        </article>
+      </section>
+      <section class="h-[300px] border-[#ffffff] border-l-[210px] border-r-[210px] mt-6 ">
+        <article class="flex justify-between flex-row">
+            <div class="w-[300px] rounded-2xl shadow-lg bg-white  overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out">
+                <img class="w-full h-[180px] object-cover rounded-2xl" 
+                    src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp" 
+                    alt="Food Image">
+                <div class="p-4">
+                    <p class="text-lg font-semibold capitalize">Order Online</p>
+                    <p class="text-gray-600 capitalize">Stay home and order to your doorstep</p>
+                </div>
+            </div>
+
+            <div class="w-[300px] rounded-2xl  shadow-lg bg-white  overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out">
+                <img class="w-full h-[180px] object-cover rounded-2xl" 
+                    src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp" 
+                    alt="Food Image">
+                <div class="p-4">
+                    <p class="text-lg font-semibold capitalize">dining</p>
+                    <p class="text-gray-600 capitalize">view the city's favorite dining venues</p>
+                </div>
+            </div>
+
+            <div class="w-[300px] rounded-2xl  shadow-lg bg-white  overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out">
+                <img class="w-full h-[180px] object-cover rounded-2xl" 
+                    src="https://b.zmtcdn.com/data/o2_assets/371de657644f1b5818fcb5d83387c8c91722851940.png?output-format=webp" 
+                    alt="Food Image">
+                <div class="p-4">
+                    <p class="text-lg font-semibold capitalize">live events</p>
+                    <p class="text-gray-600 capitalize">discover india's best events & concerts</p>
+                </div>
+            </div>
+            
+        </article>
+
+      </section>
+    </div>
+  </body>
+</html>
